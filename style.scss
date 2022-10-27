@@ -64,6 +64,7 @@ body{
   width: 5rem;
   border-radius: 50%;
   background-color: white;
+  animation: leftright 5s infinite;
 }
 .c1{
   height: 20%;
@@ -180,4 +181,17 @@ input{
 .submit:hover{
   box-shadow: 0px 0px 5px 2px #5d9477;
   background: #03914c;
+}
+@keyframes leftright {
+  0% {
+    transform: translateX(-0.5rem);
+  }
+
+  50% {
+    transform: translateX(0rem);
+  }
+
+  100% {
+    transform: translateX(-0.5rem);
+  }
 }
