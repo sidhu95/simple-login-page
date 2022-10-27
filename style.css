@@ -172,8 +172,8 @@ body {
 input {
   border: none;
   height: 87%;
+  font-size: 15px;
 }
-
 input:focus-visible {
   outline: none;
 }

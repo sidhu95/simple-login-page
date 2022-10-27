@@ -155,10 +155,12 @@ body{
 input{
   border: none;
   height: 87%;
+  font-size: 15px;
+  &:focus-visible{
+    outline: none;
+  }
 }
-input:focus-visible{
-  outline: none;
-}
+
 .password{
   margin-bottom: 0;
 }
